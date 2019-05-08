@@ -1,0 +1,16 @@
+.aside {
+    -fx-background-color: #00BCD4;
+}
+
+.jfx-list-cell {
+    -fx-background-color: transparent;
+}
+
+.jfx-list-cell .jfx-rippler {
+    -jfx-rippler-fill: #B2EBF2;
+}
+
+.jfx-list-cell:hover {
+    -fx-background-color: #0097A7;
+}
+

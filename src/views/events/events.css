@@ -1,0 +1,18 @@
+.jfx-tree-table-view .tree-table-row-cell:selected {
+    -fx-background-color: #CDDC39;
+}
+
+.jfx-tree-table-view .tree-table-row-cell:hover {
+    -fx-background-color: #B2EBF2;
+}
+
+.jfx-tree-table-view .tree-table-cell {
+    -fx-alignment: center;
+}
+
+.fab {
+    -fx-background-radius: 56px;
+    -fx-pref-width: 56px;
+    -fx-pref-height: 56px;
+    -fx-background-color: #00BCD4;
+}

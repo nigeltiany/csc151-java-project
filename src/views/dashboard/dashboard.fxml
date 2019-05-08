@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.dashboard.DashboardController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="96.0" layoutY="83.0" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: #00BCD4;" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="16.0">
+         <graphic>
+            <AnchorPane prefHeight="128.0" prefWidth="128.0" translateX="-8.5">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Events" textAlignment="CENTER" textFill="WHITE" translateX="8.0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="140.0" style="-fx-alignment: center;">
+                           <children>
+                              <Label fx:id="eventsCounterLabel" text="0" textFill="WHITE" translateX="8.0">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="188.0" layoutY="16.0" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: #CDDC39;" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="16.0">
+         <graphic>
+            <AnchorPane prefHeight="128.0" prefWidth="128.0" translateX="-8.5">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Sold Tickets" textAlignment="CENTER" textFill="WHITE" translateX="8.0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="140.0" style="-fx-alignment: center;">
+                           <children>
+                              <Label fx:id="soldTicketsCounterLabel" text="0" textFill="WHITE" translateX="8.0">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="324.0" layoutY="16.0" prefHeight="128.0" prefWidth="256.0" style="-fx-background-color: #FFC107;" AnchorPane.leftAnchor="304.0" AnchorPane.topAnchor="16.0">
+         <graphic>
+            <AnchorPane prefHeight="128.0" prefWidth="256.0" translateX="-8.5">
+               <children>
+                  <VBox alignment="CENTER" layoutX="-39.0" prefHeight="140.0" prefWidth="280.0" style="-fx-alignment: center;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Revenue" textAlignment="CENTER" textFill="WHITE" translateX="8.0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="140.0" style="-fx-alignment: center;">
+                           <children>
+                              <Label fx:id="revenueLabel" text="0" textFill="WHITE" translateX="8.0">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </graphic>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="628.0" layoutY="16.0" prefHeight="128.0" prefWidth="256.0" style="-fx-background-color: #FF5722;" AnchorPane.leftAnchor="576.0" AnchorPane.topAnchor="16.0">
+         <graphic>
+            <AnchorPane prefHeight="128.0" prefWidth="256.0" translateX="-8.5">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-alignment: center;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Expenses" textAlignment="CENTER" textFill="WHITE" translateX="8.0">
+                           <font>
+                              <Font size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox prefHeight="100.0" prefWidth="140.0" style="-fx-alignment: center;">
+                           <children>
+                              <Label fx:id="expensesLabel" text="0" textFill="WHITE" translateX="8.0">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
